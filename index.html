@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Bzg Books App</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link id="favicon" rel="shortcut icon" type="image/x-icon" href="favicon.ico"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="./js/index.js"></script>
+</head>
+<body>
+<header class="top-header">
+    <div class="left-header">
+        <a class="toggle-sidebar"><i class="fa fa-bars"></i></a>
+        <h1>My Books App</h1>
+    </div>
+
+    <div class="right-header">
+        <div class="top-form"><input type="text" name="searchText" id="searchInput" class="inputSearch"></div>
+        <a class="link-profile"><i class="fa fa-user-circle"></i></a>
+    </div>
+    
+</header>
+<section class="content-section"> 
+    <aside class="left-aside">
+        <div class="header-aside">
+            <div class="user-image">
+                <img src="http://s3.amazonaws.com/37assets/svn/765-default-avatar.png">
+            </div>
+            <div class="user-info">
+                <h3>Nombre Usuario</h3>
+            </div>                        
+        </div>
+        <div class="content-aside">
+            <ul class="main-menu">
+                <li>
+                    <a href="#/">
+                        <i class="fa fa-tachometer" aria-hidden="true"></i>
+                        <span>Inicio</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#/collections">
+                        <i class="fa fa-book" aria-hidden="true"></i>
+                        <span>Colección</span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <span>Favoritos</span>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <i class="fa fa-power-off" aria-hidden="true"></i>
+                        <span>Salir</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+    <section class="main-section">
+        <div id="content"></div>
+    </section>
+</section>
+</body>
+</html>
