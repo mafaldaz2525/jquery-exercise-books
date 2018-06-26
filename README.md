@@ -11,7 +11,8 @@ In the top-right corner of the page, click **Fork**.
 - Under the repository name, click **Clone or download**.
 - Open Terminal.
 
-```$: git clone https://github.com/YOUR-USERNAME/jquery-exercise-books
+```
+$: git clone https://github.com/YOUR-USERNAME/jquery-exercise-books
 ```
 
 ## Install
