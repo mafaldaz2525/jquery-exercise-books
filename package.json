@@ -1,15 +1,23 @@
 {
   "name": "booksapp",
   "version": "1.0.0",
-  "description": "",
+  "description": "SPA App Books with JQuery",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev" : "lite-server"
+    "dev": "lite-server"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mafaldaz2525/jquery-exercise-books.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mafaldaz2525/jquery-exercise-books/issues"
+  },
+  "homepage": "https://github.com/mafaldaz2525/jquery-exercise-books#readme"
 }
